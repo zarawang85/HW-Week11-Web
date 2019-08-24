@@ -1,0 +1,77 @@
+.navbar-brand {
+    background: rgb(14, 168, 160);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+  }
+
+  .navbar-brand strong {
+    color:white;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .nav a {
+    color:black;
+  }
+
+.navbar {
+  background: white;
+}
+body {
+  background:lightgray;
+}
+
+.main {
+    margin-top:30px;
+    background:white;
+
+}
+
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    /* Block display (more on this later) */
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+h2 {
+    padding-top:40px;
+    margin-left : 30px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+strong {
+  color:rgb(14, 168, 160);
+  margin:10px;
+
+}
+
+
+
+.click {
+  margin-top:20px;
+  margin-left:45px;
+  margin-bottom: 60px;
+}
+
+.sub-title {
+    text-align:center;
+    margin-top:0px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    background:rgb(14, 168, 160);
+   
+  }
+}
